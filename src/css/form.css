@@ -1,0 +1,43 @@
+/* Name:           Mahan Giahi Saravani
+// Student Number: 133859207
+// Email:          mgiahi-saravani@myseneca.ca
+// Date:           4.19.2021*/
+
+/**
+ * Styles for the add-observation.html page 
+ */
+ .required:after {
+    content: "* ";
+    color: rgb(187, 16, 16);
+}
+
+#description{
+    width: 550px;
+}
+
+ #latitudeDiv{
+    color: rgb(253, 236, 0);
+    
+  
+ }
+ #longitudeDiv{
+    color: rgb(253, 236, 0);
+    
+ }
+
+ #latitudeDiv::before{
+    content: " "
+  
+ }
+
+ #longitudeDiv::before{
+    content: " "
+  
+ }
+
+ #labelLatitude{
+    color: rgb(173, 125, 125);
+ }
+ #labelLongitude{
+    color: rgb(173, 125, 125);
+ }
